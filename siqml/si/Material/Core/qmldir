@@ -1,0 +1,7 @@
+module Core
+
+singleton SIColors 1.0 SIColor.qml
+singleton SIAwesomIcon 1.0 SIAwesomIcon.qml
+singleton SIFonts 1.0 SIFonts.qml
+singleton SIIcons 1.0 SIIcons.qml
+

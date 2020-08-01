@@ -1,0 +1,5 @@
+module si.Material.Controls.Table
+
+SIDataTable 2.0 SIDataTable.qml
+SITableItem 2.0 SITableItem.qml
+SIHeaderView 2.0 SIHeaderView.qml

@@ -1,0 +1,4 @@
+module qml.Material.Dialog
+
+SIMessageBox 1.0 SIMessageBox.qml
+SITextDialogBox 1.0 SITextDialogBox.qml

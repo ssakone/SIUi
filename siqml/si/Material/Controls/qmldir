@@ -1,0 +1,44 @@
+module si.Material.Controls
+
+SICard 1.0 SICard.qml
+SIIcon 1.0 SIIcon.qml
+SIPage 1.0 SIPage.qml
+SIRow 1.0 SIRow.qml
+SIList 1.0 SIList.qml
+SIZone 1.0 SIZone.qml
+SILabel 1.0 SILabel.qml
+SISpace 1.0 SISpace.qml
+SIAIcon 1.0 SIAIcon.qml
+SIMIcon 1.0 SIMIcon.qml
+SIButton 1.0 SIButton.qml
+SIDrawer 1.0 SIDrawer.qml
+SIAppBar 1.0 SIAppBar.qml
+SITabView 1.0 SITabView.qml
+SIRowItem 1.0 SIRowItem.qml
+SIGridView 1.0 SIGridView.qml
+SIListView 1.0 SIListView.qml
+SIListItem 1.0 SIListItem.qml
+SIAppButton 1.0 SIAppButton.qml
+SIStackView 1.0 SIStackView.qml
+SIAppDrawer 1.0 SIAppDrawer.qml
+SIBottomBar 1.0 SIBottomBar.qml
+SIDataTable 1.0 SIDataTable.qml
+SIHeaderBar 1.0 SIHeaderBar.qml
+SITableItem 1.0 SITableItem.qml
+SITabButton 1.0 SITabButton.qml
+SITextField 1.0 SITextField.qml
+SIIconButton 1.0 SIIconButton.qml
+SIBottomSheet 1.0 SIBottomSheet.qml
+SITableElement 1.0 SITableElement.qml
+SIFlexiblePage 1.0 SIFlexiblePage.qml
+SIBottomAppBar 1.0 SIBottomAppBar.qml
+SIAppBarButton 1.0 SIAppBarButton.qml
+SISidebarButton 1.0 SISidebarButton.qml
+SIDesktopDrawer 1.0 SIDesktopDrawer.qml
+SIFlexibleAppBar 1.0 SIFlexibleAppBar.qml
+SITableHeaderItem 1.0 SITableHeaderItem.qml
+SIOutLineTextField 1.0 SIOutLineTextField.qml
+SIFloatActionButton 1.0 SIFloatActionButton.qml
+SIBottomAppBarButton 1.0 SIBottomAppBarButton.qml
+SISidebarExpandButton 1.0 SISidebarExpandButton.qml
+
