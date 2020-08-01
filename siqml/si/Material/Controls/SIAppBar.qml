@@ -5,14 +5,13 @@ import QtQuick.Controls.impl 2.12
 import QtQuick.Controls.Material 2.12
 import QtQuick.Controls.Material.impl 2.12
 
-import si.Core 1.0
-import si.Controls 1.0
+import "../Core/"
 
 Pane {
     property string title: ""
     property int elevation: 1
     property int titleSize: 20
-    property int barHeight: 70
+    property int barHeight: 56
     property bool dense: false
     property alias leading: lead
     property alias leftItem: leftBar
@@ -28,7 +27,7 @@ Pane {
     property bool scrollProminentView: false
     property alias headerLayout: toolBarLayout
     property bool scrollEnableElevation: false
-    property int defaultHeight: dense ? 70 : 60
+    property int defaultHeight: dense ? 70 : 56
     property color accentColor: SIColors.iGray900
     property color foregroundColor: SIColors.iWhite
     property color backgroundColor: SIColors.iBlue500
