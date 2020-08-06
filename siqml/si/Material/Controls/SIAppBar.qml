@@ -75,11 +75,11 @@ Pane {
         anchors.fill: parent
         SIRowItem {
             id: leftBar
-            lg: 10
-            xs: 10
-            md: 10
-            sm: 10
-            xl: 10
+            lg: 9
+            xs: 9
+            md: 9
+            sm: 9
+            xl: 9
             height: parent.height
             children: Row {
 
@@ -98,12 +98,9 @@ Pane {
                     height: parent.height
                     id: titleBarLabel
                     text: title
-                    wrapMode: Label.WrapAtWordBoundaryOrAnywhere
-
                     visible: !prominent
                     width: (parent.width-100 )-lead.width
-                    font.pointSize: titleSize
-                    font.weight: Font.Medium
+                    font: SIFonts.iHEAD5
                     horizontalAlignment: centerTitle ? Text.AlignHCenter : Text.AlignLeft
                     verticalAlignment: Text.AlignVCenter
                 }
@@ -122,11 +119,11 @@ Pane {
 
         }
         SIRowItem {
-            lg: 2
-            xs: 2
-            md: 2
-            sm: 2
-            xl: 2
+            lg: 3
+            xs: 3
+            md: 3
+            sm: 3
+            xl: 3
             height: parent.height
             Row {
                 id: toolBarLayout

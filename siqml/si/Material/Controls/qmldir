@@ -27,6 +27,7 @@ SIHeaderBar 1.0 SIHeaderBar.qml
 SITableItem 1.0 SITableItem.qml
 SITabButton 1.0 SITabButton.qml
 SITextField 1.0 SITextField.qml
+SISWeatAlert 1.0 SISWeatAlert.qml
 SIIconButton 1.0 SIIconButton.qml
 SIBottomSheet 1.0 SIBottomSheet.qml
 SITableElement 1.0 SITableElement.qml

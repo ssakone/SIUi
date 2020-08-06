@@ -71,5 +71,10 @@
         <file>qrc/roboto/Roboto-ThinItalic.ttf</file>
         <file>siqml/si/Material/Core/SIFonts.qml</file>
         <file>siqml/si/Material/Controls/SILabel.qml</file>
+        <file>siqml/si/Material/Controls/SISWeatAlert.qml</file>
+        <file>qrc/check.gif</file>
+        <file>qrc/danger.gif</file>
+        <file>qrc/info.gif</file>
+        <file>qrc/warning.gif</file>
     </qresource>
 </RCC>

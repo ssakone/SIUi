@@ -12,8 +12,10 @@ Drawer {
     property var target
     property var elevation: 2
     property alias load: loader
+    property bool full: false
     z: 99999
     padding: 5
+    dim: true
     id: bottomSheet
     background: Item{}
     edge: Qt.BottomEdge
@@ -43,8 +45,8 @@ Drawer {
 
     
     Rectangle {
-        width: loader.item.width-20
-        x: 10
+        width: bottomSheet.full? loader.item.width : loader.item.width-20
+        x: bottomSheet.full? 0 : 10
         radius: bottomSheet.radius
         height: loader.item.height+radius
         anchors.horizontalCenter: parent.horizontalCenter

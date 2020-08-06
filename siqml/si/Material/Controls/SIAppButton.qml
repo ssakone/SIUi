@@ -36,7 +36,9 @@ MouseArea {
         }
     }
     InnerShadow{
-       anchors.fill: back
+       width: parent.width+10
+       anchors.horizontalCenter: parent.horizontalCenter
+       height: parent.height
        source: back
        color: Qt.darker(backgroundColor)
        radius: 100

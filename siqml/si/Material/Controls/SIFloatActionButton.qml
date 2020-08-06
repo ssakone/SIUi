@@ -3,7 +3,7 @@ import QtQuick.Controls 2.12
 import QtQuick.Controls.impl 2.12
 import QtQuick.Controls.Material 2.12
 import QtQuick.Controls.Material.impl 2.12
-import si.Core 1.0
+import "../Core/"
 
 RoundButton{
     id: control
@@ -32,7 +32,7 @@ RoundButton{
     }
     background: Rectangle {
         color: control.backgroundColor
-        radius: control.height/2
+        radius:height/2
 
         Ripple {
             implicitWidth: control.Material.touchTarget
