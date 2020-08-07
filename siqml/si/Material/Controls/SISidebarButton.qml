@@ -5,7 +5,7 @@ import QtQuick.Controls.impl 2.12
 import QtQuick.Controls.Material 2.12
 import QtQuick.Controls.Material.impl 2.12
 
-import si.Core 1.0
+import "../Core/"
 
 import QtGraphicalEffects 1.0
 

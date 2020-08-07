@@ -4,27 +4,15 @@ import QtQuick.Controls.Material 2.12
 import QtQuick.Layouts 1.12
 import "../Core/"
 TabButton {
-    property string iconString: ""
     id: control
+    property string iconString: ""
     text: ""
     height: 48*SIFonts.dpiDensity
-    bottomPadding: 7
-    //down: checked
     font: SIFonts.iCaption
-    contentItem: Column{
+    contentItem: Column {
+        topPadding: 10
         width: parent.width
         height: parent.height
-        SILabel {
-          width: parent.width
-          id: icono
-          text: control.iconString
-          font.family: SIFonts.materialIcon
-          font.pixelSize: 25
-          opacity: checked ? 1.0 : 0.4
-          horizontalAlignment: Text.AlignHCenter
-          elide: Text.ElideRight
-          Material.foreground: Material.primaryColor
-        }
         SILabel {
           width: parent.width
           id: texto

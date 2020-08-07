@@ -236,8 +236,8 @@ Item {
                 anchors.right: parent.right
                 spacing: 10
                 SIButton {
-                    label.text: "Précédent"
-                    label.font.pixelSize: 15
+                    text: "Précédent"
+                    flat: true
                     width: 100
                     height: 50
                     onClicked: back()
@@ -249,8 +249,8 @@ Item {
                     font.pixelSize: 15
                 }
                 SIButton {
-                    label.text: "Suivant"
-                    label.font.pixelSize: 15
+                    text: "Suivant"
+                    flat: true
                     width: 100
                     height: 50
                     onClicked: next()
