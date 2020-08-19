@@ -18,6 +18,8 @@ MouseArea {
     property string icon: ""
     property alias text: label.text
     property alias font: label.font
+    property alias label: label
+    property int radius: 3
     enabled: true
     width: brow.implicitWidth+30
     height: brow.implicitHeight+20
@@ -32,7 +34,7 @@ MouseArea {
     Rectangle {
         id: bbackground
         anchors.fill: parent
-        radius: 3
+        radius: parent.radius
         color: control.texted? 'transparent' : control.flat? 'transparent' : Material.primaryColor
         border.color: control.texted? 'transparent' : control.flat? SIColors.iGray400 : color
         Rectangle {
