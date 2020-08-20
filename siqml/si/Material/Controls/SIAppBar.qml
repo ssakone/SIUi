@@ -43,7 +43,7 @@ Pane {
 
     ]
     height: prominent ? prominentHeight : defaultHeight
-    width: parent.width
+    width: control.parent.width
     Material.accent: accentColor
     Material.foreground: foregroundColor
     Material.elevation: elevation
@@ -100,7 +100,7 @@ Pane {
                     text: title
                     visible: !prominent
                     width: (parent.width-100 )-lead.width
-                    font: SIFonts.iHEAD5
+                    font: SIFonts.iHEAD6
                     horizontalAlignment: centerTitle ? Text.AlignHCenter : Text.AlignLeft
                     verticalAlignment: Text.AlignVCenter
                 }
