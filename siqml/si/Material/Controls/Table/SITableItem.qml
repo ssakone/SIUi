@@ -19,9 +19,10 @@ Control {
     Label {
         visible: showText
         id: texto
-        anchors.fill: parent
+        width: parent.width
+        height: parent.height
         text: index+1
-        clip: true
+        wrapMode: Label.Wrap
         style: Text.Normal
         font.family: 'Arial'
         verticalAlignment: Text.AlignVCenter
