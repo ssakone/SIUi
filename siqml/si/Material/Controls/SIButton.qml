@@ -18,6 +18,7 @@ MouseArea {
     property string icon: ""
     property alias text: label.text
     property alias font: label.font
+    property alias label: label
     property int radius: 3
     enabled: true
     width: brow.implicitWidth+30
