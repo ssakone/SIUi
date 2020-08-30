@@ -24,6 +24,7 @@ Item {
     property bool hideHeader: false
     property bool expandList: false
     property var headers: []
+    property alias headerBar: header
 
     height: colgg.height
 
