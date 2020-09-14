@@ -1,3 +1,4 @@
+
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Controls.impl 2.15
@@ -18,7 +19,6 @@ MouseArea {
     property string icon: ""
     property alias text: label.text
     property alias font: label.font
-    property alias label: label
     property int radius: 3
     enabled: true
     width: brow.implicitWidth+30

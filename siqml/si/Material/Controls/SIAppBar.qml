@@ -1,3 +1,4 @@
+
 import QtQuick 2.11
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.4
@@ -43,7 +44,7 @@ Pane {
 
     ]
     height: prominent ? prominentHeight : defaultHeight
-    width: control.parent.width
+    width: parent.width
     Material.accent: accentColor
     Material.foreground: foregroundColor
     Material.elevation: elevation
@@ -100,7 +101,7 @@ Pane {
                     text: title
                     visible: !prominent
                     width: (parent.width-100 )-lead.width
-                    font: SIFonts.iHEAD6
+                    font: SIFonts.iHEAD5
                     horizontalAlignment: centerTitle ? Text.AlignHCenter : Text.AlignLeft
                     verticalAlignment: Text.AlignVCenter
                 }

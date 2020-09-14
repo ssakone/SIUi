@@ -1,3 +1,5 @@
+
+
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import "../Core/"
@@ -71,6 +73,10 @@ Item  {
         top: field.spinTop
         bottom: field.spinBottom
     }
+    RegExpValidator {
+        id: textValidator
+        regExp: RegExp(".+")
+    }
 
     TextField {
         anchors.verticalCenter: parent.verticalCenter
@@ -82,7 +88,7 @@ Item  {
         verticalAlignment: Text.AlignVCenter
         leftPadding: 10
         rightPadding: 10
-        validator: field.accept==="text"? undefined : field.accept==="int"? intValidator : field.accept==="double"? doubleValidator : undefined
+        validator: field.accept==="text"? textValidator : field.accept==="int"? intValidator : field.accept==="double"? doubleValidator : textValidator
         background: Item { }
         onFocusChanged: {
             if(focus!==true){
