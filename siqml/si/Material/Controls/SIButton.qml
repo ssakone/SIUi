@@ -40,10 +40,9 @@ MouseArea {
         Rectangle {
             implicitWidth: parent.width
             implicitHeight: parent.height
-            opacity: control.flat || control.texted? .4 : 1
-
+            opacity: !control.enabled ? .6 : control.flat || control.texted? .4 : 1
             radius: 3
-            color: !control.enabled ? Qt.darker(bbackground.color) :
+            color: !control.enabled ? bbackground.color :
                     control.highlighted ? Qt.lighter(bbackground.color) : control.Material.buttonColor
 
             Ripple {
@@ -72,6 +71,7 @@ MouseArea {
             id: label
             anchors.verticalCenter: parent.verticalCenter
             text: ""
+            opacity: !control.enabled ? .4 : 1
             font: SIFonts.iButton
             color: control.foregroundColor
             antialiasing: true
